@@ -1,0 +1,16 @@
+<application>
+  <component name="LocalDatabaseDriverManager" version="201">
+    <driver id="cassandra">
+      <artifact id="Cassandra" name="Cassandra" use="true" version="1.4" />
+    </driver>
+    <driver id="h2.unified">
+      <artifact id="H2" name="H2" channel="fixed" rolling="false" use="true" version="1.3.176" />
+    </driver>
+    <driver id="mysql.8">
+      <artifact id="MySQL Connector/J 8" name="MySQL Connector/J 8" use="true" />
+    </driver>
+    <driver id="postgresql">
+      <artifact id="PostgreSQL" name="PostgreSQL" use="true" version="42.3.3" />
+    </driver>
+  </component>
+</application>
